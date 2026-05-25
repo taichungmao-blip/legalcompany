@@ -3,7 +3,7 @@ name: KOSPI Daily Tracker
 on:
   schedule:
     # 這裡使用 UTC 時間。UTC 07:30 = 台灣時間 15:30 (每週一到週五)
-    - cron: '30 7 * * 1-5'
+    - cron: '30 6 * * 1-5'
   workflow_dispatch: 
 
 jobs:
